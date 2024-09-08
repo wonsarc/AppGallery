@@ -1,0 +1,60 @@
+{
+  "originHash" : "a4d5395b0cb32dec1cc1253461d47a94033da54829a937eba0465611c0ad3f31",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "crosswordapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonsarc/CrosswordApp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "156610336e4a39fb30727e0c2e9dfde89ad15dd1"
+      }
+    },
+    {
+      "identity" : "currentcityapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonsarc/CurrentCityApp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c2ca59e9d7f6131a3d00889bbe1cc6143709742c"
+      }
+    },
+    {
+      "identity" : "currentweatherapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonsarc/CurrentWeatherApp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cd2ef9321ab1a3fb5fa3011e25f29f4de7348ac1"
+      }
+    },
+    {
+      "identity" : "stepcounterapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonsarc/StepCounterApp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b4431fd074b3d535d4d0e88b5007ace9fec761d7"
+      }
+    },
+    {
+      "identity" : "tictactoeapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wonsarc/TicTacToeApp.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e81c95a65580c51b6db3dc8e931e53d235c86af0"
+      }
+    }
+  ],
+  "version" : 3
+}

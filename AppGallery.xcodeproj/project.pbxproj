@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		412FA8DD2C873D4400C2BFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FA8DC2C873D4400C2BFA6 /* AppDelegate.swift */; };
-		412FA8E12C873D4400C2BFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FA8E02C873D4400C2BFA6 /* ViewController.swift */; };
 		412FA8E62C873D4600C2BFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412FA8E52C873D4600C2BFA6 /* Assets.xcassets */; };
 		412FA8E92C873D4600C2BFA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 412FA8E82C873D4600C2BFA6 /* Base */; };
+		412FA90C2C8C7DD800C2BFA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FA90B2C8C7DD800C2BFA6 /* MainViewController.swift */; };
+		412FA90E2C8C7DFB00C2BFA6 /* MiniAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412FA90D2C8C7DFB00C2BFA6 /* MiniAppCell.swift */; };
+		41AEFE9A2C8DBAC1001FF32F /* CrosswordApp in Frameworks */ = {isa = PBXBuildFile; productRef = 41AEFE992C8DBAC1001FF32F /* CrosswordApp */; };
+		41C2576F2C8CB01A0055566E /* TicTacToeApp in Frameworks */ = {isa = PBXBuildFile; productRef = 41C2576E2C8CB01A0055566E /* TicTacToeApp */; };
+		41C257762C8CC7CF0055566E /* CurrentCityApp in Frameworks */ = {isa = PBXBuildFile; productRef = 41C257752C8CC7CF0055566E /* CurrentCityApp */; };
+		41C2577C2C8CD02C0055566E /* CurrentWeatherApp in Frameworks */ = {isa = PBXBuildFile; productRef = 41C2577B2C8CD02C0055566E /* CurrentWeatherApp */; };
+		41C257822C8CE3280055566E /* StepCounterApp in Frameworks */ = {isa = PBXBuildFile; productRef = 41C257812C8CE3280055566E /* StepCounterApp */; };
+		41C257842C8CE3A10055566E /* MiniAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C257832C8CE3A10055566E /* MiniAppManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		412FA8D92C873D4400C2BFA6 /* AppGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412FA8DC2C873D4400C2BFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		412FA8E02C873D4400C2BFA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		412FA8E52C873D4600C2BFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412FA8E82C873D4600C2BFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		412FA8EA2C873D4600C2BFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412FA90B2C8C7DD800C2BFA6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		412FA90D2C8C7DFB00C2BFA6 /* MiniAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppCell.swift; sourceTree = "<group>"; };
+		41C2577F2C8CDD0D0055566E /* AppGallery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppGallery.entitlements; sourceTree = "<group>"; };
+		41C257832C8CE3A10055566E /* MiniAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C2576F2C8CB01A0055566E /* TicTacToeApp in Frameworks */,
+				41C2577C2C8CD02C0055566E /* CurrentWeatherApp in Frameworks */,
+				41C257762C8CC7CF0055566E /* CurrentCityApp in Frameworks */,
+				41AEFE9A2C8DBAC1001FF32F /* CrosswordApp in Frameworks */,
+				41C257822C8CE3280055566E /* StepCounterApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +67,14 @@
 		412FA8DB2C873D4400C2BFA6 /* AppGallery */ = {
 			isa = PBXGroup;
 			children = (
+				41C2577F2C8CDD0D0055566E /* AppGallery.entitlements */,
 				412FA8DC2C873D4400C2BFA6 /* AppDelegate.swift */,
-				412FA8E02C873D4400C2BFA6 /* ViewController.swift */,
 				412FA8E52C873D4600C2BFA6 /* Assets.xcassets */,
 				412FA8E72C873D4600C2BFA6 /* LaunchScreen.storyboard */,
 				412FA8EA2C873D4600C2BFA6 /* Info.plist */,
+				412FA90B2C8C7DD800C2BFA6 /* MainViewController.swift */,
+				412FA90D2C8C7DFB00C2BFA6 /* MiniAppCell.swift */,
+				41C257832C8CE3A10055566E /* MiniAppManager.swift */,
 			);
 			path = AppGallery;
 			sourceTree = "<group>";
@@ -77,6 +95,13 @@
 			dependencies = (
 			);
 			name = AppGallery;
+			packageProductDependencies = (
+				41C2576E2C8CB01A0055566E /* TicTacToeApp */,
+				41C257752C8CC7CF0055566E /* CurrentCityApp */,
+				41C2577B2C8CD02C0055566E /* CurrentWeatherApp */,
+				41C257812C8CE3280055566E /* StepCounterApp */,
+				41AEFE992C8DBAC1001FF32F /* CrosswordApp */,
+			);
 			productName = AppGallery;
 			productReference = 412FA8D92C873D4400C2BFA6 /* AppGallery.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +130,13 @@
 				Base,
 			);
 			mainGroup = 412FA8D02C873D4400C2BFA6;
+			packageReferences = (
+				41C2576D2C8CB01A0055566E /* XCRemoteSwiftPackageReference "TicTacToeApp" */,
+				41C257742C8CC7CF0055566E /* XCRemoteSwiftPackageReference "CurrentCityApp" */,
+				41C2577A2C8CD02C0055566E /* XCRemoteSwiftPackageReference "CurrentWeatherApp" */,
+				41C257802C8CE3280055566E /* XCRemoteSwiftPackageReference "StepCounterApp" */,
+				41AEFE982C8DBAC1001FF32F /* XCRemoteSwiftPackageReference "CrosswordApp" */,
+			);
 			productRefGroup = 412FA8DA2C873D4400C2BFA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412FA8E12C873D4400C2BFA6 /* ViewController.swift in Sources */,
+				41C257842C8CE3A10055566E /* MiniAppManager.swift in Sources */,
+				412FA90C2C8C7DD800C2BFA6 /* MainViewController.swift in Sources */,
+				412FA90E2C8C7DFB00C2BFA6 /* MiniAppCell.swift in Sources */,
 				412FA8DD2C873D4400C2BFA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -259,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppGallery/AppGallery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CQNTWDSGK9;
@@ -305,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppGallery/AppGallery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CQNTWDSGK9;
@@ -353,6 +389,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41AEFE982C8DBAC1001FF32F /* XCRemoteSwiftPackageReference "CrosswordApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wonsarc/CrosswordApp.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		41C2576D2C8CB01A0055566E /* XCRemoteSwiftPackageReference "TicTacToeApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wonsarc/TicTacToeApp.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		41C257742C8CC7CF0055566E /* XCRemoteSwiftPackageReference "CurrentCityApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wonsarc/CurrentCityApp.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		41C2577A2C8CD02C0055566E /* XCRemoteSwiftPackageReference "CurrentWeatherApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wonsarc/CurrentWeatherApp.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		41C257802C8CE3280055566E /* XCRemoteSwiftPackageReference "StepCounterApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wonsarc/StepCounterApp.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41AEFE992C8DBAC1001FF32F /* CrosswordApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41AEFE982C8DBAC1001FF32F /* XCRemoteSwiftPackageReference "CrosswordApp" */;
+			productName = CrosswordApp;
+		};
+		41C2576E2C8CB01A0055566E /* TicTacToeApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C2576D2C8CB01A0055566E /* XCRemoteSwiftPackageReference "TicTacToeApp" */;
+			productName = TicTacToeApp;
+		};
+		41C257752C8CC7CF0055566E /* CurrentCityApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C257742C8CC7CF0055566E /* XCRemoteSwiftPackageReference "CurrentCityApp" */;
+			productName = CurrentCityApp;
+		};
+		41C2577B2C8CD02C0055566E /* CurrentWeatherApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C2577A2C8CD02C0055566E /* XCRemoteSwiftPackageReference "CurrentWeatherApp" */;
+			productName = CurrentWeatherApp;
+		};
+		41C257812C8CE3280055566E /* StepCounterApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41C257802C8CE3280055566E /* XCRemoteSwiftPackageReference "StepCounterApp" */;
+			productName = StepCounterApp;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 412FA8D12C873D4400C2BFA6 /* Project object */;
 }
