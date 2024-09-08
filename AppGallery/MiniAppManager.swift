@@ -28,6 +28,11 @@ final class MiniAppManager {
             (TicTacToeViewController(), .ticTacToe),
             (CurrentWeatherVC(), .currentWeather),
             (StepCounterVC(), .stepCounter),
+            (CrosswordVC(), .crossword),
+            (CurrentCityVС(), .currentCity),
+            (TicTacToeViewController(), .ticTacToe),
+            (CurrentWeatherVC(), .currentWeather),
+            (StepCounterVC(), .stepCounter),
             (CrosswordVC(), .crossword)
         ]
 
